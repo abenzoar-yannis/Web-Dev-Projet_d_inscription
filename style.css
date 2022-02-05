@@ -13,8 +13,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  list-style: none;
   text-decoration: none;
   text-align: center;
+  color: #000;
 }
 body {
   min-height: 100vh;
@@ -78,6 +80,27 @@ main p {
   text-align: justify;
 }
 
+/* ----- Footer ----- */
+footer {
+  padding: 1rem 0.5rem;
+  background-color: var(--secondaryBackground);
+}
+footer li {
+  padding: 1rem 2rem;
+  transition: 0.3s;
+}
+footer li:hover {
+  transform: scale(1.2);
+}
+footer a {
+  padding: 0.5rem;
+}
+footer a:active {
+  color: var(--mainColor);
+  text-shadow: 0 0 0.1rem var(--mainColor);
+}
+
+/* ----- Media Queries ----- */
 @media screen and (min-width: 440px) and (max-width: 720px) {
   div {
     width: 90%;
