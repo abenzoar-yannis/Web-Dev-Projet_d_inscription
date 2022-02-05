@@ -31,6 +31,13 @@ body::before {
   z-index: -1;
   background: linear-gradient(20deg, #c5c5ff, #ffffff, #c5c5ff);
 }
+.developpeur {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "AlexBrush";
+  color: var(--mainColor);
+}
+
 /* ----- header ----- */
 header {
   min-height: 90vh;
@@ -84,6 +91,7 @@ main p {
 footer {
   padding: 1rem 0.5rem;
   background-color: var(--secondaryBackground);
+  overflow: hidden;
 }
 footer li {
   padding: 1rem 2rem;
@@ -114,6 +122,10 @@ footer a:active {
   header img {
     float: right;
   }
+  footer ul {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 960px) {
@@ -136,5 +148,9 @@ footer a:active {
   }
   main {
     width: 1260px;
+  }
+  footer {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
   }
 }
