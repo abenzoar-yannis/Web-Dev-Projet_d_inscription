@@ -31,7 +31,7 @@ body::before {
   z-index: -1;
   background: linear-gradient(20deg, #c5c5ff, #ffffff, #c5c5ff);
 }
-.developpeur {
+.alexTheme {
   font-size: 1.5rem;
   font-weight: bold;
   font-family: "AlexBrush";
