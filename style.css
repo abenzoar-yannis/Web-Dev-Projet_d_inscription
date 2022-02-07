@@ -37,6 +37,9 @@ body::before {
   font-family: "AlexBrush";
   color: var(--mainColor);
 }
+a.alexTheme:hover {
+  text-decoration: underline;
+}
 
 /* ----- header ----- */
 header {
